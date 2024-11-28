@@ -1,0 +1,161 @@
+
+/* 
+.card-img   {
+    width:80px;
+    height: 80px;
+}
+ */
+
+/* .our-portfolio {
+    text-align: center;
+}
+
+.text h2 {
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    text-transform: capitalize;
+
+}
+
+.text h2::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    left: 45%;
+    height: 10px;
+    border: 2px solid red;
+    bottom: -25px;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 10px;
+}
+
+.text h2::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    border: 1px solid red;
+    bottom: -9px;
+    left: 35%;
+}
+.black{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+.buttom button {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 3px 12px;
+    text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+    margin: 20px 0;
+}
+
+.section img {
+    width: 100%;
+    display: block;
+}
+
+.inner {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.section {
+    position: relative;
+    overflow: hidden;
+}
+
+.section .black {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    inset: 0;
+    opacity: 0;
+    transition: transform 1s;
+}
+
+.section:hover .black {
+
+    opacity: 1;
+}
+.balck i{
+
+}
+
+@media (min-width:768px) {
+    
+    .section {
+        width:calc(100% /2 - 30px);
+    }
+
+}
+@media (min-width:992px) {
+    
+    .section {
+        width:calc(100% /3 - 30px);
+    }
+    .text h2::before {
+        content: "";
+        position: absolute;
+        width: 100px;
+        left: 47%;
+        height: 10px;
+        border: 2px solid red;
+        bottom: -25px;
+        border-left: 0;
+        border-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .text h2::after {
+        content: "";
+        position: absolute;
+        width: 200px;
+        border: 1px solid red;
+        bottom: -9px;
+        left: 43%;
+    }
+
+} */
+
+
+
+/* 
+
+
+.parrent{
+    display: grid;
+    height: 100vh;
+    grid-template-areas:
+    "header header header header"
+    "main   main     .     sidebar"
+    "footer footer footer footer"
+    ;
+}
+.child1{
+    grid-area: header;
+    background-color: red;
+}
+.child2{
+    grid-area: main;
+    background-color: yellowgreen;
+}
+.child3{
+    grid-area: sidebar;
+    background-color: blue;
+}
+.child4{
+    grid-area: footer;
+    background-color: teal;
+} */

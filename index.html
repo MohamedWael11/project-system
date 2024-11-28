@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-black">
+      <div class="container py-5 ">
+        <h1 class="mb-4 text-white">Project managment system</h1>
+        <div class="w-75 mx-auto">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="prodectName" placeholder="prodectName">
+            <label for="prodectName">prodect Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="number" class="form-control" id="prodectPrice" placeholder="prodectPrice">
+            <label for="prodectPrice">prodect Price</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input list="catogare" type="text" class="form-control" id="prodectcatogare" placeholder="prodectlist">
+            <label for="prodectcatogare">prodect catogare</label>
+            <datalist id="catogare">
+              <option value="TV"/>
+              <option value="Mobil"/>
+              <option value="screen"/>
+              <option value="others"/>
+            </datalist>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="prodectdes" placeholder="prodectdes">
+            <label for="prodectdes">prodect descraption</label>
+          </div>
+          
+          <div class="form-floating mb-3">
+            <input type="file" class="form-control" id="prodectImage" placeholder="prodectImage">
+            <label for="prodectImage">prodect Image</label>
+          </div>
+          <button id="addbtn" onclick="addProdect()" class="btn btn-primary">Add prodect</button>
+          <button id="updatebtn" onclick="updateProdect()" class="btn btn-info d-none">Update prodect</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="form-floating mb-3">
+          <input type="text" oninput="search(this.value)" class="form-control" id="searchProdect" placeholder="searchProdect">
+          <label for="searchProdect">search....: </label>
+        </div>
+      </div>
+
+      <div class="container py-5">
+        <div class="row gy-4" id="mydata">
+        
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="./js/js.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
